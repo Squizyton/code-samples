@@ -39,7 +39,6 @@ namespace MapGenerator
 
         [SerializeField, Range(0, 1)] private float frequency;
 
-        //TODO: Re-explain what this does. I dont remember
         public float noiseScale;
         public int octaves;
         [Range(0, 1)] public float persistance;
